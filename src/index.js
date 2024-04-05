@@ -1,3 +1,8 @@
 import './style.css';
+import Landing from './landing';
 
-console.log("hello world");
+const contentDiv = document.getElementById("content");
+console.log(Landing());
+
+//contentDiv.appendChild(Landing());
+contentDiv.replaceWith(Landing());
